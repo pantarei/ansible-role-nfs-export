@@ -1,0 +1,8 @@
+---
+# test file for hswong3i.nfs_exports
+
+- hosts: localhost
+  remote_user: root
+  roles:
+    - hswong3i.nfs
+    - ansible-role-nfs-exports
