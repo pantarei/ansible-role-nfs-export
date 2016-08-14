@@ -1,11 +1,11 @@
-Ansible Role for NFS Exports Management
+Ansible Role for NFS Export Management
 ======================================
 
 [![Build Status](https://travis-ci.org/pantarei/ansible-role-nfs-export.svg?branch=master)](https://travis-ci.org/pantarei/ansible-role-nfs-export)
 [![GitHub tag](https://img.shields.io/github/tag/pantarei/ansible-role-nfs-export.svg)](https://github.com/pantarei/ansible-role-nfs-export)
 [![GitHub license](https://img.shields.io/github/license/pantarei/ansible-role-nfs-export.svg)](https://github.com/pantarei/ansible-role-nfs-export/blob/master/LICENSE)
 
-Ansible Role for NFS Exports Management.
+Ansible Role for NFS Export Management.
 
 Requirements
 ------------
