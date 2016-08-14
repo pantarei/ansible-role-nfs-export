@@ -18,6 +18,10 @@ before_install:
 install:
   - git clone https://github.com/pantarei/ansible-role-nfs.git ../hswong3i.nfs
 
+before_script:
+  - mkdir -p /srv/export
+  - mkdir -p /srv/export/home
+
 script:
   - sudo ansible-playbook tests/test.yml -i tests/hosts --syntax-check
   - sudo ansible-playbook tests/test.yml -i tests/hosts
