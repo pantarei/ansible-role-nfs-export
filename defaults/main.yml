@@ -1,7 +1,7 @@
 ---
-# defaults file for hswong3i.nfs_exports
+# defaults file for hswong3i.nfs_export
 
-nfs_exports: [
-#  { owner: "root", group: "root", mode: "0777", dest: "/srv/exports", opts: "*(rw,no_subtree_check,no_root_squash,sync,insecure,fsid=root,crossmnt)" },
-#  { owner: "root", group: "root", mode: "0777", dest: "/srv/exports/home", opts: "*(rw,no_subtree_check,no_root_squash,sync,insecure)" },
+nfs_export: [
+#  { dest: "/srv/export", opts: "*(rw,no_subtree_check,no_root_squash,sync,insecure,fsid=root,crossmnt)" },
+#  { dest: "/srv/export/home", opts: "*(rw,no_subtree_check,no_root_squash,sync,insecure)" },
 ]

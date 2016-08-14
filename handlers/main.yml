@@ -1,5 +1,5 @@
 ---
-# handlers file for hswong3i.nfs_exports
+# handlers file for hswong3i.nfs_export
 
 - name: restart nfs
   service:
