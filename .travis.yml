@@ -16,7 +16,7 @@ before_install:
   - sudo apt-get -y install ansible
 
 install:
-  - git clone https://github.com/pantarei/ansible-role-nfs.git ../hswong3i.nfs
+  - git clone https://github.com/pantarei/ansible-role-nfs.git ../ansible-role-nfs
 
 before_script:
   - sudo mkdir -p /srv/export
